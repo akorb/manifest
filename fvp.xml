@@ -25,8 +25,9 @@
         <project path="grub"                 name="grub.git"                              revision="refs/tags/grub-2.02" clone-depth="1" remote="savannah" />
         <project path="trusted-firmware-a"   name="TF-A/trusted-firmware-a.git"           revision="refs/tags/v2.8" clone-depth="1" remote="tfo" />
         <project path="mbedtls"              name="Mbed-TLS/mbedtls.git"                  revision="refs/tags/mbedtls-2.28.1" />
-        <project path="ra_verifier"          name="akorb/ra_verifier.git"                 revision="3.22.0-ftpm-ra" clone-depth="1" />
-        <project path="asn1c_generations"    name="akorb/asn1c_generations.git"           revision="3.22.0-ftpm-ra" clone-depth="1" />
+        <project path="ra-verifier"          name="akorb/ra-verifier.git"                 revision="3.22.0-ftpm-ra" clone-depth="1" />
+        <project path="asn1c-generations"    name="akorb/asn1c-generations.git"           revision="3.22.0-ftpm-ra" clone-depth="1" />
+        <project path="certs-workspace"      name="akorb/certs-workspace.git"             revision="3.22.0-ftpm-ra" clone-depth="1" />
 
         <!-- fTPM implementation -->
         <project path="ms-tpm-20-ref"        name="akorb/ms-tpm-20-ref"               revision="3.22.0-ftpm-ra" />
