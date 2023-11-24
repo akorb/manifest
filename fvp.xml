@@ -19,17 +19,17 @@
         <project path="optee_examples"       name="linaro-swg/optee_examples.git"    revision="refs/tags/3.22.0" clone-depth="1" />
 
         <!-- Misc gits -->
-        <project path="buildroot"            name="buildroot/buildroot.git"               revision="refs/tags/2022.11.1" clone-depth="1" />
-        <project path="edk2"                 name="tianocore/edk2.git"                    revision="dd4cae4d82c7477273f3da455084844db5cca0c0" />
-        <project path="edk2-platforms"       name="tianocore/edk2-platforms.git"          revision="02daa58c21f89628b4d8c76f95f3a554289149bc" />
-        <project path="grub"                 name="grub.git"                              revision="refs/tags/grub-2.02" clone-depth="1" remote="savannah" />
-        <project path="trusted-firmware-a"   name="TF-A/trusted-firmware-a.git"           revision="refs/tags/v2.8" clone-depth="1" remote="tfo" />
-        <project path="mbedtls"              name="Mbed-TLS/mbedtls.git"                  revision="refs/tags/mbedtls-2.28.1" />
-        <project path="ra_verifier"          name="akorb/ra_verifier.git"                 revision="3.22.0-ftpm-ra" clone-depth="1" />
-        <project path="alias_cert_extension" name="akorb/alias_cert_extension.git"        revision="3.22.0-ftpm-ra" clone-depth="1" />
-        <project path="dice_data_generator"  name="akorb/dice_data_generator.git"         revision="3.22.0-ftpm-ra" clone-depth="1" />
+        <project path="buildroot"            name="buildroot/buildroot.git"          revision="refs/tags/2022.11.1" clone-depth="1" />
+        <project path="edk2"                 name="tianocore/edk2.git"               revision="dd4cae4d82c7477273f3da455084844db5cca0c0" />
+        <project path="edk2-platforms"       name="tianocore/edk2-platforms.git"     revision="02daa58c21f89628b4d8c76f95f3a554289149bc" />
+        <project path="grub"                 name="grub.git"                         revision="refs/tags/grub-2.02" clone-depth="1" remote="savannah" />
+        <project path="trusted-firmware-a"   name="TF-A/trusted-firmware-a.git"      revision="refs/tags/v2.8" clone-depth="1" remote="tfo" />
+        <project path="mbedtls"              name="Mbed-TLS/mbedtls.git"             revision="refs/tags/mbedtls-2.28.1" />
+        <project path="ra_endpoints"         name="akorb/ra_endpoints.git"           revision="3.22.0-ftpm-ra" clone-depth="1" />
+        <project path="alias_cert_extension" name="akorb/alias_cert_extension.git"   revision="3.22.0-ftpm-ra" clone-depth="1" />
+        <project path="dice_data_generator"  name="akorb/dice_data_generator.git"    revision="3.22.0-ftpm-ra" clone-depth="1" />
 
         <!-- fTPM implementation -->
-        <project path="ms-tpm-20-ref"        name="akorb/ms-tpm-20-ref"               revision="3.22.0-ftpm-ra" />
+        <project path="ms-tpm-20-ref"        name="akorb/ms-tpm-20-ref"              revision="3.22.0-ftpm-ra" />
 
 </manifest>
